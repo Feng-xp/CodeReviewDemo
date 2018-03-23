@@ -23,6 +23,8 @@
     label.text = @"啊啊啊啊";
     [label sizeToFit];
     [self.view addSubview:label];
+    
+    label.frame = CGRectMake(10, 30, label.frame.size.width, label.frame.size.height);
 }
 
 
