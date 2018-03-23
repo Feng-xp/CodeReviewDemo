@@ -18,6 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"修改一行");
+    
+    UILabel *label = [UILabel new];
+    label.text = @"啊啊啊啊";
+    [label sizeToFit];
+    [self.view addSubview:label];
 }
 
 
