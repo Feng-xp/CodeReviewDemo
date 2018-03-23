@@ -20,39 +20,53 @@
     NSLog(@"修改一行");
     
     UILabel *label = [UILabel new];
-    label.text = @"啊啊啊啊";
+    label.text = @"1";
     [label sizeToFit];
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 30, label.frame.size.width, label.frame.size.height);
     
     label = [UILabel new];
-    label.text = @"啊啊啊啊";
+    label.text = @"2";
     [label sizeToFit];
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 50, label.frame.size.width, label.frame.size.height);
     
     label = [UILabel new];
-    label.text = @"啊啊啊啊";
+    label.text = @"3";
     [label sizeToFit];
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 70, label.frame.size.width, label.frame.size.height);
     
     label = [UILabel new];
-    label.text = @"啊啊啊啊";
+    label.text = @"4";
     [label sizeToFit];
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 80, label.frame.size.width, label.frame.size.height);
     
     label = [UILabel new];
-    label.text = @"啊啊啊啊";
+    label.text = @"5";
     [label sizeToFit];
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 100, label.frame.size.width, label.frame.size.height);
+    
+    label = [UILabel new];
+    label.text = @"8";
+    [label sizeToFit];
+    [self.view addSubview:label];
+    
+    label.frame = CGRectMake(10, 100, label.frame.size.width, label.frame.size.height);
+    
+    label = [UILabel new];
+    label.text = @"9 +";
+    [label sizeToFit];
+    [self.view addSubview:label];
+    
+    label.frame = CGRectMake(10, 120, label.frame.size.width, label.frame.size.height);
 }
 
 
