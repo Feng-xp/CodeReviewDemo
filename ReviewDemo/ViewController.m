@@ -46,6 +46,13 @@
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 80, label.frame.size.width, label.frame.size.height);
+    
+    label = [UILabel new];
+    label.text = @"啊啊啊啊";
+    [label sizeToFit];
+    [self.view addSubview:label];
+    
+    label.frame = CGRectMake(10, 100, label.frame.size.width, label.frame.size.height);
 }
 
 
