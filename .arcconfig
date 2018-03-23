@@ -3,6 +3,6 @@
   "editor": "vim",
   "base": "git:HEAD^",
   "arc.land.onto.default": "master",
-  "arc.land.update.default": "rebase",
+  "arc.land.update.default": "merge",
   "history.immutable": false
 }
