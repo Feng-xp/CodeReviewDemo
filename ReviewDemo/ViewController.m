@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RNView.h"
+#import "UIView+Color.h"
 
 @interface ViewController ()
 
@@ -67,6 +69,11 @@
     [self.view addSubview:label];
     
     label.frame = CGRectMake(10, 120, label.frame.size.width, label.frame.size.height);
+    
+    RNView *view = [[RNView alloc] initWithFrame:CGRectMake(10, 150, 300, 30)];
+    view.backgroundColor = [UIColor lightGrayColor];
+    view.borderColor = [UIColor redColor];
+    [self.view addSubview:view];
 }
 
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2B4D2B2074D6DA00133F80 /* RNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B4D2A2074D6DA00133F80 /* RNView.m */; };
+		0F2B4D2E2074D76100133F80 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B4D2D2074D76100133F80 /* UIView+Color.m */; };
 		0FDD97ED20526240008DDC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD97EC20526240008DDC94 /* AppDelegate.m */; };
 		0FDD97F020526240008DDC94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD97EF20526240008DDC94 /* ViewController.m */; };
 		0FDD97F320526240008DDC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD97F120526240008DDC94 /* Main.storyboard */; };
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2B4D292074D6D900133F80 /* RNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNView.h; sourceTree = "<group>"; };
+		0F2B4D2A2074D6DA00133F80 /* RNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNView.m; sourceTree = "<group>"; };
+		0F2B4D2C2074D76100133F80 /* UIView+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
+		0F2B4D2D2074D76100133F80 /* UIView+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
+		0F2B4D2F2074DD5300133F80 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0FDD97E820526240008DDC94 /* ReviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDD97EB20526240008DDC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FDD97EC20526240008DDC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,10 +112,15 @@
 				0FDD97EC20526240008DDC94 /* AppDelegate.m */,
 				0FDD97EE20526240008DDC94 /* ViewController.h */,
 				0FDD97EF20526240008DDC94 /* ViewController.m */,
+				0F2B4D2C2074D76100133F80 /* UIView+Color.h */,
+				0F2B4D2D2074D76100133F80 /* UIView+Color.m */,
+				0F2B4D292074D6D900133F80 /* RNView.h */,
+				0F2B4D2A2074D6DA00133F80 /* RNView.m */,
 				0FDD97F120526240008DDC94 /* Main.storyboard */,
 				0FDD97F420526240008DDC94 /* Assets.xcassets */,
 				0FDD97F620526240008DDC94 /* LaunchScreen.storyboard */,
 				0FDD97F920526240008DDC94 /* Info.plist */,
+				0F2B4D2F2074DD5300133F80 /* PrefixHeader.pch */,
 				0FDD97FA20526240008DDC94 /* main.m */,
 			);
 			path = ReviewDemo;
@@ -267,6 +279,8 @@
 			files = (
 				0FDD97F020526240008DDC94 /* ViewController.m in Sources */,
 				0FDD97FB20526240008DDC94 /* main.m in Sources */,
+				0F2B4D2B2074D6DA00133F80 /* RNView.m in Sources */,
+				0F2B4D2E2074D76100133F80 /* UIView+Color.m in Sources */,
 				0FDD97ED20526240008DDC94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
