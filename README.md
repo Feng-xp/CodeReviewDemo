@@ -1,3 +1,10 @@
+直接push到github
+
+user github url to review
+
+push to github direct
+
+current branch = develop
 track feature only
 
 use develop
@@ -16,11 +23,8 @@ updating D23
 
 arc patch
 
-<<<<<<< HEAD
-=======
 新建一个分支开发
 
->>>>>>> 7f627e19764c36c45ab2ded21324595c92ac6554
 测试更新审核（后）
 
 测试更新审核（前）
