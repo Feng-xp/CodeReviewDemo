@@ -1,3 +1,5 @@
+current branch = develop
+
 code review 分支
 
 更新被拒绝的修改
