@@ -1,6 +1,7 @@
 {
   "phabricator.uri" : "http://127.0.0.1",
   "editor": "vim",
+  "base": "git:HEAD^",
   "arc.land.onto.default": "feature",
   "arc.land.update.default": "merge",
   "history.immutable": false
